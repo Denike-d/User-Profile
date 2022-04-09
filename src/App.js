@@ -1,14 +1,15 @@
 import { useEffect, useState} from 'react'
-import Profile from './Profile';
+import ApiData from './component/ApiData';
+import ProfileForm from './component/ProfileForm';
+import RepoTable from './component/RepoTable';
 
 function App() {
   return (
       <div>
-        <Profile />
-      
+        {/*<ProfileForm />*/}
+        <ApiData />
       </div>
     );
 
   }
-  
 export default App;
